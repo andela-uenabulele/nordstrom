@@ -1,4 +1,5 @@
-export default function CreditCardApplication_setCreditLocalStorage() {
+export function CreditCardApplication_setCreditLocalStorage() {
+	console.log(global);
 	(function setCreditLocalStorage(){
 	    var timer;
 	    if(typeof localStorage.setItem === 'function'){
@@ -8,6 +9,6 @@ export default function CreditCardApplication_setCreditLocalStorage() {
 	    } else {
 	        timer = window.setTimeout(setCreditLocalStorage, 500);
 		}
-	    clearTimeout(timer, 7000);    
+	    clearTimeout(timer, 7000);
 	})();
 }
