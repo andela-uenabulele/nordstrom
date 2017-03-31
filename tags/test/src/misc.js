@@ -1,6 +1,6 @@
 import chai from 'chai'
 var expect = chai.expect
-import {CreditCardApplication_setCreditLocalStorage} from '../../src/misc/CreditCardApplication_setCreditLocalStorage'
+import CreditCardApplication_setCreditLocalStorage from '../../src/misc/CreditCardApplication_setCreditLocalStorage'
 import {CreditCardOffer_setVisa} from  '../../src/misc/CreditCardOffer_setCreditType'
 
 // Sinon will be used to meet better standard in the testing

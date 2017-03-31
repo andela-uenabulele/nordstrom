@@ -1,48 +1,60 @@
-20:09:56.293 INFO - Launching a standalone Selenium Server
-20:09:56.893 INFO - Java: Oracle Corporation 25.121-b13
-20:09:56.893 INFO - OS: Mac OS X 10.12.2 x86_64
-20:09:57.130 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-20:09:57.796 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+20:40:57.931 INFO - Launching a standalone Selenium Server
+20:40:57.996 INFO - Java: Oracle Corporation 25.121-b13
+20:40:57.997 INFO - OS: Mac OS X 10.12.2 x86_64
+20:40:58.013 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+20:40:58.100 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-20:09:57.796 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+20:40:58.100 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-20:09:57.796 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-20:09:57.797 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-20:09:57.805 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-20:09:57.805 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-20:09:58.502 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-20:09:58.502 INFO - Selenium Server is up and running
-20:10:00.202 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Smoke / View Script Check, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-20:10:00.305 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Smoke / View Script Check, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f) on port 40648
+20:40:58.101 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+20:40:58.101 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+20:40:58.103 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+20:40:58.103 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+20:40:58.271 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+20:40:58.272 INFO - Selenium Server is up and running
+20:40:59.338 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Smoke / View Script Check, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:40:59.350 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Smoke / View Script Check, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f) on port 27216
 Only local connections are allowed.
-20:10:06.761 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Smoke / View Script Check, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-20:10:06.852 INFO - Executing: [get: http://shop.nordstrom.com/])
-20:10:16.024 INFO - Done: [get: http://shop.nordstrom.com/]
-20:10:16.032 INFO - Executing: [set script timeout: 15000])
-20:10:16.190 INFO - Done: [set script timeout: 15000]
-20:10:16.200 INFO - Executing: [delete session: 4b2620b9-c55e-4b8b-8f64-457ae1bd7075])
-20:10:16.656 INFO - Done: [delete session: 4b2620b9-c55e-4b8b-8f64-457ae1bd7075]
-20:10:16.692 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Integration / Misc, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-20:10:16.693 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Integration / Misc, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f) on port 28256
+20:41:02.972 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Smoke / View Script Check, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:41:03.015 INFO - Executing: [get: http://shop.nordstrom.com/])
+20:41:13.178 INFO - Done: [get: http://shop.nordstrom.com/]
+20:41:13.189 INFO - Executing: [set script timeout: 15000])
+20:41:13.204 INFO - Done: [set script timeout: 15000]
+20:41:13.215 INFO - Executing: [get: http://shop.nordstrom.com/])
+20:41:17.533 INFO - Done: [get: http://shop.nordstrom.com/]
+20:41:17.548 INFO - Executing: [find elements: By.cssSelector: body])
+20:41:17.610 INFO - Done: [find elements: By.cssSelector: body]
+20:41:17.623 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (16cb00ccd99d6ed3f40a61630ac91019)] -> css selector: body]])
+20:41:17.662 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (16cb00ccd99d6ed3f40a61630ac91019)] -> css selector: body]]
+20:41:17.673 INFO - Executing: [get title])
+20:41:17.685 INFO - Done: [get title]
+20:41:17.696 INFO - Executing: [find element: By.cssSelector: head])
+20:41:17.753 INFO - Done: [find element: By.cssSelector: head]
+20:41:17.760 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on MAC (16cb00ccd99d6ed3f40a61630ac91019)] -> css selector: head], src])
+20:41:17.774 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on MAC (16cb00ccd99d6ed3f40a61630ac91019)] -> css selector: head], src]
+20:41:17.787 INFO - Executing: [delete session: 6e2f7633-e75b-4792-abf4-73b3d7a193e8])
+20:41:18.026 INFO - Done: [delete session: 6e2f7633-e75b-4792-abf4-73b3d7a193e8]
+20:41:18.074 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Integration / Misc, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:41:18.076 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Integration / Misc, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f) on port 46447
 Only local connections are allowed.
-20:10:18.262 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Integration / Misc, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-20:10:18.275 INFO - Executing: [get: http://shop.nordstrom.com/])
-20:10:27.323 INFO - Done: [get: http://shop.nordstrom.com/]
-20:10:27.354 INFO - Executing: [find elements: By.cssSelector: body])
-20:10:27.471 INFO - Done: [find elements: By.cssSelector: body]
-20:10:27.484 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (afb44ea6f5fe8ed6f61d56da3a162983)] -> css selector: body]])
-20:10:27.569 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (afb44ea6f5fe8ed6f61d56da3a162983)] -> css selector: body]]
-20:10:27.577 INFO - Executing: [get title])
-20:10:27.589 INFO - Done: [get title]
-20:10:27.599 INFO - Executing: [execute async script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (data, done) {
+20:41:19.782 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Integration / Misc, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:41:19.791 INFO - Executing: [get: http://shop.nordstrom.com/])
+20:41:28.674 INFO - Done: [get: http://shop.nordstrom.com/]
+20:41:28.686 INFO - Executing: [find elements: By.cssSelector: body])
+20:41:28.760 INFO - Done: [find elements: By.cssSelector: body]
+20:41:28.773 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (6237fbdb95e3255ed23bcb748f73abfa)] -> css selector: body]])
+20:41:28.876 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (6237fbdb95e3255ed23bcb748f73abfa)] -> css selector: body]]
+20:41:28.892 INFO - Executing: [get title])
+20:41:28.918 INFO - Done: [get title]
+20:41:28.931 INFO - Executing: [execute async script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (data, done) {
         someAsyncOperation(function() {
           CreditCardApplication_setCreditLocalStorage();
           done(true);
         });
       }.apply(window, passedArgs);, []])
-20:10:45.454 WARN - Exception thrown
+20:41:40.678 WARN - Exception thrown
 org.openqa.selenium.WebDriverException: javascript error: someAsyncOperation is not defined
 JavaScript stack:
 ReferenceError: someAsyncOperation is not defined
@@ -56,12 +68,12 @@ ReferenceError: someAsyncOperation is not defined
     at <anonymous>:358:3
   (Session info: chrome=57.0.2987.133)
   (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.12.2 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 20 milliseconds
+Command duration or timeout: 59 milliseconds
 Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
 System info: host: 'xmile.local', ip: '172.16.23.194', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.2', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/lf/czcq63294zxfgh8fzcsb6s9h0000gn/T/.org.chromium.Chromium.Z3Zfp6}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: afb44ea6f5fe8ed6f61d56da3a162983
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/lf/czcq63294zxfgh8fzcsb6s9h0000gn/T/.org.chromium.Chromium.9uuHAg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 6237fbdb95e3255ed23bcb748f73abfa
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -83,7 +95,7 @@ Session ID: afb44ea6f5fe8ed6f61d56da3a162983
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-20:11:05.471 WARN - Exception: javascript error: someAsyncOperation is not defined
+20:42:00.720 WARN - Exception: javascript error: someAsyncOperation is not defined
 JavaScript stack:
 ReferenceError: someAsyncOperation is not defined
     at eval (eval at executeAsyncScript (:439:5), <anonymous>:3:9)
@@ -96,21 +108,21 @@ ReferenceError: someAsyncOperation is not defined
     at <anonymous>:358:3
   (Session info: chrome=57.0.2987.133)
   (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.12.2 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 20 milliseconds
+Command duration or timeout: 59 milliseconds
 Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
 System info: host: 'xmile.local', ip: '172.16.23.194', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.2', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/lf/czcq63294zxfgh8fzcsb6s9h0000gn/T/.org.chromium.Chromium.Z3Zfp6}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: afb44ea6f5fe8ed6f61d56da3a162983
-20:11:27.603 INFO - Executing: [get all cookies])
-20:11:27.733 INFO - Done: [get all cookies]
-20:11:27.883 INFO - Executing: [find element: By.cssSelector: a.rfx_T-B-F])
-20:11:27.915 INFO - Done: [find element: By.cssSelector: a.rfx_T-B-F]
-20:11:27.922 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (afb44ea6f5fe8ed6f61d56da3a162983)] -> css selector: a.rfx_T-B-F]])
-20:11:32.363 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (afb44ea6f5fe8ed6f61d56da3a162983)] -> css selector: a.rfx_T-B-F]]
-20:11:32.371 INFO - Executing: [find element: By.cssSelector: .side-navigation.browse-nav])
-20:11:32.400 INFO - Done: [find element: By.cssSelector: .side-navigation.browse-nav]
-20:11:32.405 INFO - Executing: [get text: 2 [[ChromeDriver: chrome on MAC (afb44ea6f5fe8ed6f61d56da3a162983)] -> css selector: .side-navigation.browse-nav]])
-20:11:32.480 INFO - Done: [get text: 2 [[ChromeDriver: chrome on MAC (afb44ea6f5fe8ed6f61d56da3a162983)] -> css selector: .side-navigation.browse-nav]]
-20:11:32.486 INFO - Executing: [delete session: f06fc8d8-833e-4736-90dc-6fc19d9bfa8e])
-20:11:33.083 INFO - Done: [delete session: f06fc8d8-833e-4736-90dc-6fc19d9bfa8e]
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/lf/czcq63294zxfgh8fzcsb6s9h0000gn/T/.org.chromium.Chromium.9uuHAg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 6237fbdb95e3255ed23bcb748f73abfa
+20:42:28.935 INFO - Executing: [get all cookies])
+20:42:28.975 INFO - Done: [get all cookies]
+20:42:29.140 INFO - Executing: [find element: By.cssSelector: a.rfx_T-B-F])
+20:42:29.180 INFO - Done: [find element: By.cssSelector: a.rfx_T-B-F]
+20:42:29.189 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (6237fbdb95e3255ed23bcb748f73abfa)] -> css selector: a.rfx_T-B-F]])
+20:42:36.026 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (6237fbdb95e3255ed23bcb748f73abfa)] -> css selector: a.rfx_T-B-F]]
+20:42:36.036 INFO - Executing: [find element: By.cssSelector: .side-navigation.browse-nav])
+20:42:36.070 INFO - Done: [find element: By.cssSelector: .side-navigation.browse-nav]
+20:42:36.077 INFO - Executing: [get text: 2 [[ChromeDriver: chrome on MAC (6237fbdb95e3255ed23bcb748f73abfa)] -> css selector: .side-navigation.browse-nav]])
+20:42:36.148 INFO - Done: [get text: 2 [[ChromeDriver: chrome on MAC (6237fbdb95e3255ed23bcb748f73abfa)] -> css selector: .side-navigation.browse-nav]]
+20:42:36.159 INFO - Executing: [delete session: 3cb0c240-66e2-4a59-bc49-9e231d486fbf])
+20:42:36.635 INFO - Done: [delete session: 3cb0c240-66e2-4a59-bc49-9e231d486fbf]
