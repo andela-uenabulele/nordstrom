@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="integration.misc"
+    errors="0" failures="0" hostname="" id="" package="misc" skipped="0"
+    tests="1" time="76.40" timestamp="Fri, 31 Mar 2017 19:10:16 GMT">
+  
+    <testcase name="injects a new tag without breaking app" classname="integration.misc" time="76.40" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

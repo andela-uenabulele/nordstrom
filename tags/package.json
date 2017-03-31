@@ -47,7 +47,8 @@
     "WeddingStylist": "browserify -t [ babelify --presets [ es2015 ] ] pages/WeddingStylist.js | uglifyjs -o dist/WeddingStylist.js",
     "WishList": "browserify -t [ babelify --presets [ es2015 ] ] pages/WishList.js | uglifyjs -o dist/WishList.js",
     "WishListSearch": "browserify -t [ babelify --presets [ es2015 ] ] pages/WishListSearch.js | uglifyjs -o dist/WishListSearch.js",
-    "test": "_mocha --compilers js:babel-core/register test/*/*.js --timeout 10000"
+    "test": "_mocha --compilers js:babel-core/register test/*/*.js --timeout 30000",
+    "e2e": "node_modules/.bin/nightwatch --config nightwatch.conf.BASIC.js"
   },
   "author": "Nordstrom <ndirttotech@nordstrom.com>",
   "license": "Apache-2.0",
@@ -57,6 +58,8 @@
     "babelify": "^7.3.0",
     "browserify": "^13.1.0",
     "nightmare": "^2.10.0",
+    "nightwatch": "^0.9.14",
+    "selenium-download": "^2.0.9",
     "uglify-js": "^2.7.3"
   }
 }
